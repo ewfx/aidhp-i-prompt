@@ -14,7 +14,7 @@
 ---
 
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
+Our application is a highly personalized credit card recommendation system that leverages advanced clustering algorithms like K-Means and DBSCAN, combined with the Gemma 3 1B LLM, to generate valuable insights. Our application provides tailored credit card recommendations based on user profiles and spending behavior. With a plug-and-play architecture, it can be seamlessly deployed at any scale.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -24,16 +24,21 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+Traditional credit card recommendation systems often fail to consider user-specific needs, leading to suboptimal suggestions. We wanted to bridge the gap by integrating AI-driven clustering with a powerful LLM to provide meaningful insights. Our aim was to create a scalable, intelligent, and data-driven solution that adapts to evolving customer preferences.
 
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
+📊 User Profiling & Clustering – Utilizes K-Means & DBSCAN to cluster users based on their financial behavior.
+🧠 LLM-Based Insights – Gemma 3 1B generates personalized insights based on user spending patterns.
+🔄 Database CRUD Operations – A dedicated database service ensures efficient storage and retrieval of user data.
+📡 Plug & Play Model – Can be easily integrated with existing banking infrastructures.
 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+LLM Integration: Ensuring smooth and real-time interaction between the LLM and recommendation system.
+Generating Accurate Synthetic Data – Creating realistic synthetic user transaction data for testing and model training.
+Integrating All Services – Ensuring seamless communication between the clustering models, LLM, database service, and frontend.
 
 ## 🏃 How to Run
 1. Clone the repository  
@@ -51,9 +56,9 @@ Describe the major technical or non-technical challenges your team encountered.
 
 ## 🏗️ Tech Stack
 - 🔹 Frontend: React / Tailwind CSS
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Backend: Python(Flask / Fast API)
+- 🔹 Database: MySQL
+- 🔹 Other: Ollama
 
 ## 👥 Team
 - **Manoj M Mallya** - [GitHub](https://github.com/mixed-farming) | [LinkedIn](https://www.linkedin.com/in/manoj-m-mallya-75503620a/) [Team Captain]

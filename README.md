@@ -18,10 +18,10 @@ Our application is a highly personalized credit card recommendation system that 
 
 ## 🎥 Demo
 📹 [Video Demo](#) <br>
-• https://github.com/ewfx/aidhp-i-prompt/blob/main/demo.webm) [Code demo]
+• https://github.com/ewfx/aidhp-i-prompt/blob/main/demo.webm) [Code demo] <br>
 • https://github.com/ewfx/aidhp-i-prompt/blob/main/UI%20demo.mp4 [UI demo]
 
-📸 [Screenshots]
+📸 [Screenshots](#)
 ![image](https://github.com/user-attachments/assets/b9a8b362-875e-4324-b309-d4a0644b8005)
 
 ![image](https://github.com/user-attachments/assets/e8270293-a898-4358-bc5a-ba03419c8a40)

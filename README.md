@@ -41,17 +41,30 @@ Generating Accurate Synthetic Data – Creating realistic synthetic user transac
 Integrating All Services – Ensuring seamless communication between the clustering models, LLM, database service, and frontend.
 
 ## 🏃 How to Run
+Follow these steps to set up and run the application:
+
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/aidhp-i-prompt.git
+   cd aidhp-i-prompt/code/src
    ```
-2. Install dependencies  
+2. Install Frontend Dependencies 
    ```sh
-   npm install  # or pip install -r requirements.txt (for Python)
+   npm install
    ```
-3. Run the project  
+3. Start the Frontend
    ```sh
-   npm start  # or python app.py
+   npm start
+   ```
+4. Start the Backend Service
+   ```sh
+   python app.py
+   ```
+5. Set Up and Run the LLM Model
+   ```sh
+   ollama pull gemma3:1b
+   export OLLAMA_HOST="http://localhost:11444"
+   ollama serve
    ```
 
 ## 🏗️ Tech Stack

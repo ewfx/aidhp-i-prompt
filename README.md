@@ -56,7 +56,7 @@ Describe the major technical or non-technical challenges your team encountered.
 - 🔹 Other: OpenAI API / Twilio / Stripe
 
 ## 👥 Team
-- **Manoj M Mallya** - [GitHub](https://github.com/mixed-farming) | [LinkedIn](https://www.linkedin.com/in/manoj-m-mallya-75503620a/)
+- **Manoj M Mallya** - [GitHub](https://github.com/mixed-farming) | [LinkedIn](https://www.linkedin.com/in/manoj-m-mallya-75503620a/) [Team Captain]
 - **Jyoti Suman Sahoo** - [GitHub](https://github.com/JyotiSuman09) | [LinkedIn](https://www.linkedin.com/in/jyotisuman09/)
 - **Sidharth Deepesh** - [GitHub](https://github.com/SIDHARTH06) | [LinkedIn](https://www.linkedin.com/in/sidharth-deepesh-05b960200/)
 - **Manas Jain** - [GitHub](https://github.com/mannmj) | [LinkedIn](https://www.linkedin.com/in/mannmj/)

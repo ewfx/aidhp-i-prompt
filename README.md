@@ -40,25 +40,25 @@ Traditional credit card recommendation systems often fail to consider user-speci
 ## 🛠️ How We Built It
 Our application is designed as a scalable, plug-and-play model that seamlessly integrates multiple technologies. Below is an outline of the key frameworks, tools, and methodologies we used during development:
 
-🔹 Frontend
-• React.js – For building a dynamic and responsive user interface.
-• Tailwind CSS – For modern and customizable styling.
-• Framer Motion – For smooth animations and interactive UI elements.
+🔹 Frontend <br>
+• React.js – For building a dynamic and responsive user interface. <br>
+• Tailwind CSS – For modern and customizable styling. <br>
+• Framer Motion – For smooth animations and interactive UI elements. <br>
 
-🔹 Backend
-• Python (Flask/FastAPI) – To handle API requests and manage business logic.
+🔹 Backend<br>
+• Python (Flask/FastAPI) – To handle API requests and manage business logic.<br>
 
-🔹 Database & CRUD Operations
-• Dedicated Database Service – To manage Create, Read, Update, and Delete (CRUD) operations efficiently.
+🔹 Database & CRUD Operations<br>
+• Dedicated Database Service – To manage Create, Read, Update, and Delete (CRUD) operations efficiently.<br>
 
-🔹 AI & Machine Learning
-• K-Means & DBSCAN Clustering – To categorize users based on their spending patterns.
-• Gemma 3B (1B LLM) – A locally hosted large language model (LLM) that generates insights and recommendations.
-• Ollama – To run the LLM efficiently on local hardware.
+🔹 AI & Machine Learning<br>
+• K-Means & DBSCAN Clustering – To categorize users based on their spending patterns.<br>
+• Gemma 3B (1B LLM) – A locally hosted large language model (LLM) that generates insights and recommendations.<br>
+• Ollama – To run the LLM efficiently on local hardware.<br>
 
-🔹 User Authentication
-• Local Storage-Based Authentication – We use a CSV file (user_credentials.csv) stored locally to manage user authentication.
-• CSV Parsing with PapaParse – The CSV file is fetched, parsed, and verified against user inputs for a secure and efficient login system.
+🔹 User Authentication<br>
+• Local Storage-Based Authentication – We use a CSV file (user_credentials.csv) stored locally to manage user authentication.<br>
+• CSV Parsing with PapaParse – The CSV file is fetched, parsed, and verified against user inputs for a secure and efficient login system.<br>
 
 ## 🚧 Challenges We Faced
 LLM Integration: Ensuring smooth and real-time interaction between the LLM and recommendation system.

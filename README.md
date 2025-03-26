@@ -17,9 +17,7 @@
 Our application is a highly personalized credit card recommendation system that leverages advanced clustering algorithms like K-Means and DBSCAN, combined with the Gemma 3 1B LLM, to generate valuable insights. Our application provides tailored credit card recommendations based on user profiles and spending behavior. With a plug-and-play architecture, it can be seamlessly deployed at any scale.
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
-🖼️ Screenshots:
+📹 [Video Demo](#) https://github.com/ewfx/aidhp-i-prompt/blob/main/demo.webm) 
 
 ![Screenshot 1](link-to-image)
 

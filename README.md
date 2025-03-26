@@ -33,7 +33,27 @@ Traditional credit card recommendation systems often fail to consider user-speci
 📡 Plug & Play Model – Can be easily integrated with existing banking infrastructures.
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+Our application is designed as a scalable, plug-and-play model that seamlessly integrates multiple technologies. Below is an outline of the key frameworks, tools, and methodologies we used during development:
+
+🔹 Frontend
+• React.js – For building a dynamic and responsive user interface.
+• Tailwind CSS – For modern and customizable styling.
+• Framer Motion – For smooth animations and interactive UI elements.
+
+🔹 Backend
+• Python (Flask/FastAPI) – To handle API requests and manage business logic.
+
+🔹 Database & CRUD Operations
+• Dedicated Database Service – To manage Create, Read, Update, and Delete (CRUD) operations efficiently.
+
+🔹 AI & Machine Learning
+• K-Means & DBSCAN Clustering – To categorize users based on their spending patterns.
+• Gemma 3B (1B LLM) – A locally hosted large language model (LLM) that generates insights and recommendations.
+• Ollama – To run the LLM efficiently on local hardware.
+
+🔹 User Authentication
+• Local Storage-Based Authentication – We use a CSV file (user_credentials.csv) stored locally to manage user authentication.
+• CSV Parsing with PapaParse – The CSV file is fetched, parsed, and verified against user inputs for a secure and efficient login system.
 
 ## 🚧 Challenges We Faced
 LLM Integration: Ensuring smooth and real-time interaction between the LLM and recommendation system.
